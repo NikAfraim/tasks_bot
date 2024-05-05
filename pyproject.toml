@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tasks-bot"
+version = "0.1.0"
+description = ""
+authors = ["NikSen <niksen09@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytelegrambotapi = "^4.17.0"
+flask = "^3.0.3"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
